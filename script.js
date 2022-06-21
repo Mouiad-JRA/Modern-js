@@ -84,6 +84,7 @@ If the visitor enters “ECMAScript”, then output “Right!”, otherwise – 
 // } else {
 //     message = '';
 // }
+//
+// let messages;
+// messages = (login == 'Employee') ? 'Hello' : (login == 'Director') ? 'Greetings' :(login == '') ? 'No login': '';
 
-let messages;
-messages = (login == 'Employee') ? 'Hello' : (login == 'Director') ? 'Greetings' :(login == '') ? 'No login': '';
